@@ -2,10 +2,9 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Common.Base;
-using Database;
 using Microsoft.EntityFrameworkCore;
 
-namespace Core.Repositories
+namespace Database.Repositories
 {
     public class BaseRepository : IBaseRepository
     {

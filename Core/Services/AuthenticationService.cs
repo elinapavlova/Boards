@@ -6,10 +6,10 @@ using Common.Hashing;
 using Common.Result;
 using Core.Authenticate;
 using Core.Dto.Authenticate;
-using Core.Repositories;
 using Core.Token;
 using Core.Validator;
 using Database.Models.User;
+using Database.Repositories;
 
 namespace Core.Services
 {

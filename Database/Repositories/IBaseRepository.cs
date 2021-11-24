@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Common.Base;
 
-namespace Core.Repositories
+namespace Database.Repositories
 {
     public interface IBaseRepository
     {
