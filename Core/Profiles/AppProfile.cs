@@ -3,7 +3,7 @@ using Common.Result;
 using Core.Dto.Authenticate;
 using Core.Dto.User;
 using Core.Token;
-using Database.User;
+using Database.Models.User;
 
 namespace Core.Profiles
 {

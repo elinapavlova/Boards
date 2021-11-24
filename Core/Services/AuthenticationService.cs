@@ -9,7 +9,7 @@ using Core.Dto.Authenticate;
 using Core.Repositories;
 using Core.Token;
 using Core.Validator;
-using Database.User;
+using Database.Models.User;
 
 namespace Core.Services
 {

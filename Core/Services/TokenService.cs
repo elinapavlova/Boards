@@ -6,7 +6,7 @@ using System.Text;
 using Common.Base;
 using Common.Options;
 using Core.Token;
-using Database.User;
+using Database.Models.User;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Core.Services
