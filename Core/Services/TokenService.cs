@@ -5,8 +5,8 @@ using System.Security.Claims;
 using System.Text;
 using Common.Base;
 using Common.Options;
-using Common.User;
 using Core.Token;
+using Database.User;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Core.Services

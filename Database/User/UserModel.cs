@@ -1,6 +1,6 @@
 ﻿using Common.Base;
 
-namespace Common.User
+namespace Database.User
 {
     public class UserModel : BaseModel
     {

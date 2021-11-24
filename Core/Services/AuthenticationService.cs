@@ -4,12 +4,12 @@ using AutoMapper;
 using Common.Error;
 using Common.Hashing;
 using Common.Result;
-using Common.User;
 using Core.Authenticate;
-using Core.Authenticate.Dtos;
+using Core.Dto.Authenticate;
 using Core.Repositories;
 using Core.Token;
 using Core.Validator;
+using Database.User;
 
 namespace Core.Services
 {

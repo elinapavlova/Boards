@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Core.Authenticate.Dtos
+namespace Core.Dto.Authenticate
 {
     public class UserRegisterRequestDto
     {

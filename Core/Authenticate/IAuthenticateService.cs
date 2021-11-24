@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Common.Result;
-using Core.Authenticate.Dtos;
+using Core.Dto.Authenticate;
 
 namespace Core.Authenticate
 {

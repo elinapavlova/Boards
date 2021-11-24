@@ -1,4 +1,4 @@
-﻿using Common.User;
+﻿using Database.User;
 
 namespace Core.Token
 {

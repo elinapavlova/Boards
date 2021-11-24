@@ -1,8 +1,9 @@
 ﻿using AutoMapper;
 using Common.Result;
-using Common.User;
-using Core.Authenticate.Dtos;
+using Core.Dto.Authenticate;
+using Core.Dto.User;
 using Core.Token;
+using Database.User;
 
 namespace Core.Profiles
 {

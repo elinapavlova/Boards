@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Common.Result;
 using Core.Authenticate;
-using Core.Authenticate.Dtos;
+using Core.Dto.Authenticate;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

@@ -1,4 +1,4 @@
-﻿using Common.User;
+﻿using Database.User;
 using Microsoft.EntityFrameworkCore;
 
 namespace Database

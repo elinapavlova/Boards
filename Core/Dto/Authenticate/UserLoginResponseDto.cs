@@ -1,7 +1,7 @@
 ﻿using System;
 using Core.Token;
 
-namespace Core.Authenticate.Dtos
+namespace Core.Dto.Authenticate
 {
     public class UserLoginResponseDto
     {
