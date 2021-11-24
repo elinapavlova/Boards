@@ -1,11 +1,24 @@
-﻿using Common.Token;
+﻿using System;
 
 namespace Core.Token
 {
-    public class AccessToken : TokenModel
+    public class AccessToken
     {
-        public AccessToken(string token, long expiration) : base(token, expiration)
+        public string Token { get; }
+        public long Expiration { get; }
+
+        public AccessToken(string token, long expiration)
         {
+            if(string.IsNullOrWhiteSpace(token))
+                throw new ArgumentException("Invalid token.");
+
+            if(expiration <= 0)
+                throw new ArgumentException("Invalid expiration.");
+
+            Token = token;
+            Expiration = expiration;
         }
+
+        public bool IsExpired() => DateTime.UtcNow.Ticks > Expiration;
     }
 }
