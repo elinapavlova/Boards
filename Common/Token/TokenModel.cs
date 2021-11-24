@@ -4,8 +4,8 @@ namespace Common.Token
 {
     public class TokenModel
     {
-        private string Token { get; }
-        private long Expiration { get; }
+        public string Token { get; }
+        public long Expiration { get; }
 
         protected TokenModel(string token, long expiration)
         {
