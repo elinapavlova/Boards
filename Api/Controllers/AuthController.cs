@@ -30,11 +30,10 @@ namespace Api.Controllers
         [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<ResultContainer<UserRegisterResponseDto>>> Register(UserRegisterRequestDto user)
-        {
-            return await ReturnResult<ResultContainer<UserRegisterResponseDto>, UserRegisterResponseDto>
+        public async Task<ActionResult<UserRegisterResponseDto>> Register(UserRegisterRequestDto user)
+            => await ReturnResult<ResultContainer<UserRegisterResponseDto>, UserRegisterResponseDto>
                 (_authenticateService.Register(user));
-        }
+        
 
         /// <summary>
         /// Login user
@@ -48,10 +47,8 @@ namespace Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<ResultContainer<UserLoginResponseDto>>> Login(UserLoginRequestDto user)
-        {
-            return await ReturnResult<ResultContainer<UserLoginResponseDto>, UserLoginResponseDto>
+        public async Task<ActionResult<UserLoginResponseDto>> Login(UserLoginRequestDto user)
+            => await ReturnResult<ResultContainer<UserLoginResponseDto>, UserLoginResponseDto>
                 (_authenticateService.Login(user));
-        }
     }
 }
