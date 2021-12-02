@@ -1,6 +1,7 @@
-﻿using Database.Models.User;
+﻿using Core.Token;
+using Database.Models.User;
 
-namespace Core.Token
+namespace Core.Services.Token
 {
     public interface ITokenService
     {

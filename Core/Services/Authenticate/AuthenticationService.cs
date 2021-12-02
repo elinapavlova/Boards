@@ -4,14 +4,14 @@ using AutoMapper;
 using Common.Error;
 using Common.Hashing;
 using Common.Result;
-using Core.Authenticate;
 using Core.Dto.Authenticate;
+using Core.Services.Token;
 using Core.Token;
 using Core.Validator;
 using Database.Models.User;
 using Database.Repositories;
 
-namespace Core.Services
+namespace Core.Services.Authenticate
 {
     public class AuthenticationService : IAuthenticateService
     {

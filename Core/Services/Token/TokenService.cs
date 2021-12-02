@@ -9,7 +9,7 @@ using Core.Token;
 using Database.Models.User;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Core.Services
+namespace Core.Services.Token
 {
     public class TokenService : ITokenService
     {
