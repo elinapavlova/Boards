@@ -17,26 +17,26 @@ namespace Core.Profiles
             CreateMap<UserRegisterRequestDto, UserModel>();  
             
             CreateMap<UserLoginResponseDto, ResultContainer<UserLoginResponseDto>>()
-                .ForMember("Data", opt =>
+                .ForMember(x => x.Data, opt =>
                     opt.MapFrom(u => u));
             
             CreateMap<UserModelDto, ResultContainer<UserModelDto>>()
-                .ForMember("Data", opt =>
+                .ForMember(x => x.Data, opt =>
                     opt.MapFrom(u => u));
             
             CreateMap<UserModel, ResultContainer<UserRegisterResponseDto>>()
-                .ForMember("Data", opt =>
+                .ForMember(x => x.Data, opt =>
                     opt.MapFrom(u => u));
             CreateMap<UserModel, ResultContainer<UserLoginResponseDto>>()
-                .ForMember("Data", opt =>
+                .ForMember(x => x.Data, opt =>
                     opt.MapFrom(u => u));
 
             CreateMap<AccessToken, ResultContainer<AccessToken>>()
-                .ForMember("Data", opt =>
+                .ForMember(x => x.Data, opt =>
                     opt.MapFrom(u => u));
             
             CreateMap<UserRegisterResponseDto, ResultContainer<UserRegisterResponseDto>>()
-                .ForMember("Data", opt =>
+                .ForMember(x => x.Data, opt =>
                     opt.MapFrom(u => u));
         }
     }
