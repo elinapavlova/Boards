@@ -16,8 +16,10 @@ namespace Boards.AuthService.Database
             builder.Entity<UserModel>(user =>
             {
                 user.Property(u => u.Email).IsRequired().HasMaxLength(50);
-                user.Property(u => u.Password).IsRequired().HasMaxLength(50);
+                user.Property(u => u.Password).IsRequired().HasMaxLength(200);
             });
+
+            builder.Entity<UserModel>().HasIndex(u => u.Email).IsUnique();
         }
     }
 }
