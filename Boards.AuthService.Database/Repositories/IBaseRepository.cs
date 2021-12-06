@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Common.Base;
+using Boards.Common.Base;
 
 namespace Boards.AuthService.Database.Repositories
 {

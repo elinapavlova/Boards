@@ -1,4 +1,4 @@
-﻿namespace Common.Filter
+﻿namespace Boards.Common.Filter
 {
     public class BaseFilter
     {

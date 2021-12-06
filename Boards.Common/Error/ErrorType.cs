@@ -1,4 +1,4 @@
-﻿namespace Common.Error
+﻿namespace Boards.Common.Error
 {
     public enum ErrorType
     {

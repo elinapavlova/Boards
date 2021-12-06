@@ -4,8 +4,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Boards.AuthService.Core.Token;
-using Common.Base;
-using Common.Options;
+using Boards.Common.Base;
+using Boards.Common.Options;
 using Boards.AuthService.Database.Models.User;
 using Microsoft.IdentityModel.Tokens;
 

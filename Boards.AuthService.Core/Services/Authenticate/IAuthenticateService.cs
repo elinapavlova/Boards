@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Boards.AuthService.Core.Dto.Authenticate;
-using Common.Result;
+using Boards.Common.Result;
 
 namespace Boards.AuthService.Core.Services.Authenticate
 {

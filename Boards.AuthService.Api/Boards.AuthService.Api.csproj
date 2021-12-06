@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Common\Common.csproj" />
+      <ProjectReference Include="..\Boards.Common\Boards.Common.csproj" />
       <ProjectReference Include="..\Boards.AuthService.Core\Boards.AuthService.Core.csproj" />
       <ProjectReference Include="..\Boards.AuthService.Database\Boards.AuthService.Database.csproj" />
     </ItemGroup>

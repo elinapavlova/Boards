@@ -1,4 +1,4 @@
-﻿namespace Common.Options
+﻿namespace Boards.Common.Options
 {
     public class AppOptions
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common.Base
+namespace Boards.Common.Base
 {
     public class BaseModel
     {

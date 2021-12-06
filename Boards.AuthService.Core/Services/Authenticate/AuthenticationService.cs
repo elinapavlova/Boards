@@ -5,11 +5,11 @@ using Boards.AuthService.Core.Dto.Authenticate;
 using Boards.AuthService.Core.Services.Token;
 using Boards.AuthService.Core.Token;
 using Boards.AuthService.Core.Validator;
-using Common.Error;
-using Common.Hashing;
-using Common.Result;
+using Boards.Common.Error;
+using Boards.Common.Result;
 using Boards.AuthService.Database.Models.User;
 using Boards.AuthService.Database.Repositories;
+using Common.Hashing;
 
 namespace Boards.AuthService.Core.Services.Authenticate
 {

@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boards.AuthService.Api", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boards.AuthService.Database", "Boards.AuthService.Database\Boards.AuthService.Database.csproj", "{16787DF3-6E7A-4CE6-B8F1-FE5B10A6CC01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{7B364ED9-4F88-477A-993B-1DEEC1F9EE75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boards.Common", "Boards.Common\Boards.Common.csproj", "{7B364ED9-4F88-477A-993B-1DEEC1F9EE75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boards.AuthService.Core", "Boards.AuthService.Core\Boards.AuthService.Core.csproj", "{51C9B43C-459E-4499-BE00-F5A07D1D3DC5}"
 EndProject

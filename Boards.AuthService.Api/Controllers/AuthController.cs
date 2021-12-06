@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Common.Result;
+using Boards.Common.Result;
 using Boards.AuthService.Core.Dto.Authenticate;
 using Boards.AuthService.Core.Services.Authenticate;
 using Microsoft.AspNetCore.Authorization;

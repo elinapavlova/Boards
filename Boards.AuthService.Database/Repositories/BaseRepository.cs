@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Common.Base;
+using Boards.Common.Base;
 using Microsoft.EntityFrameworkCore;
 
 namespace Boards.AuthService.Database.Repositories

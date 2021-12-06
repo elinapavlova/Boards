@@ -1,6 +1,6 @@
-﻿using Common.Error;
+﻿using Boards.Common.Error;
 
-namespace Common.Result
+namespace Boards.Common.Result
 {
     public class ResultContainer<T>
     { 

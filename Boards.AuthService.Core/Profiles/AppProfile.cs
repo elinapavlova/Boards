@@ -2,7 +2,7 @@
 using Boards.AuthService.Core.Dto.Authenticate;
 using Boards.AuthService.Core.Dto.User;
 using Boards.AuthService.Core.Token;
-using Common.Result;
+using Boards.Common.Result;
 using Boards.AuthService.Database.Models.User;
 
 namespace Boards.AuthService.Core.Profiles
